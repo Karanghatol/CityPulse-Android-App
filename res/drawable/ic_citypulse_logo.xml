@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+
+    <!-- Outer ring - vibrant blue -->
+    <path
+        android:pathData="M18,3 A15,15 0 1,1 17.999,3 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#60A5FA"
+        android:strokeWidth="2.5"/>
+
+    <!-- Middle ring - vibrant purple -->
+    <path
+        android:pathData="M18,9 A9,9 0 1,1 17.999,9 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2.5"/>
+
+    <!-- Centre dot - pure white for contrast -->
+    <path
+        android:pathData="M18,15 A3,3 0 1,1 17.999,15 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Pulse line - accent red -->
+    <path
+        android:pathData="M18,18 L27,9"
+        android:strokeColor="#F87171"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"/>
+
+</vector>
